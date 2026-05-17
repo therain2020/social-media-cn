@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=750,height=1000">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  width:750px;height:1000px;overflow:hidden;
+  font-family:"Cascadia Code","Fira Code","SF Mono",Consolas,monospace;
+  background:#1A1816;color:#F6F3EF;
+  padding:56px 52px;
+}
+.line{font-size:18px;line-height:1.8}
+.prompt{color:#EBB17B}
+.cmd{color:#F6F3EF}
+.output{color:#9E9890}
+.soft{color:#6B6560}
+.highlight{color:#F0A94B}
+.key{color:#C2640D}
+.cursor{color:#F6F3EF}
+</style>
+</head>
+<body>
+<div class="line"><span class="prompt">PS D:\GitHub\ssh-mobile-workflow&gt;</span> <span class="cmd">.\setup.ps1</span></div>
+<div class="line"><span class="output">  SSH Mobile Workflow Setup</span></div>
+<div class="line"></div>
+<div class="line"><span class="output">[1/7] OpenSSH Server 安装... OK</span></div>
+<div class="line"><span class="output">[2/7] sshd 服务启动... OK</span></div>
+<div class="line"><span class="soft">  # gitops 用户已存在，跳过创建</span></div>
+<div class="line"><span class="output">[3/7] NTFS 权限配置... OK</span></div>
+<div class="line"></div>
+<div class="line"><span class="highlight">  请在浏览器完成 Tailscale 登录</span></div>
+<div class="line"></div>
+<div class="line"><span class="output">[4/7] 环境变量 (Machine scope)... OK</span></div>
+<div class="line"><span class="output">[5/7] Claude 符号链接... OK</span></div>
+<div class="line"><span class="output">[6/7] Maven 代理配置... OK</span></div>
+<div class="line"></div>
+<div class="line"><span class="key">  全部配置完成 (8m32s)</span></div>
+<div class="line"></div>
+<div class="line"><span class="prompt">PS D:\GitHub\ssh-mobile-workflow&gt;</span> <span class="cmd">ssh gitops@100.92.45.67</span></div>
+<div class="line"><span class="output">Windows PowerShell</span></div>
+<div class="line"><span class="output">Copyright (C) Microsoft Corporation.</span></div>
+<div class="line"></div>
+<div class="line"><span class="prompt">PS C:\Users\gitops&gt;</span> <span class="cmd">claude</span></div>
+<div class="line"><span class="output">Claude Code v2.3.1 — Connected to Anthropic API</span></div>
+<div class="line"></div>
+<div class="line"><span class="key">&gt; 帮我审阅最近的 PR</span></div>
+<div class="line"><span class="cursor">_</span></div>
+</body>
+</html>
